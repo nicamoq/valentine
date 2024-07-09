@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form class="box" action="student_info.html" method="post" onsubmit="return trackFunction()">
+    <form class="box" action="student_info.html" method="get" onsubmit="return trackFunction()">
         <h1>AIA</h1>
         <h2>Please log in.</h2>
-        <input type="text" id="fname" placeholder="Username">
-        <input type="password" id="lname" placeholder="Password">
+        <input type="text" id="fname" name="fname" placeholder="Username">
+        <input type="password" id="lname" name="lname" placeholder="Password">
         <input type="submit" value="Login">
     </form>
 </body>

@@ -8,6 +8,7 @@ function trackFunction() {
     // Simple username and password check
     if (username === "user" && password === "pass") {
         localStorage.setItem('isLoggedIn', 'true');
+        console.log("isLoggedIn set to true");
         return true; // Allow form submission
     } else {
         alert("Invalid credentials. Please contact site admin.");
